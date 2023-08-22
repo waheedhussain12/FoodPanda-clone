@@ -55,6 +55,15 @@ p {
   border: 1px solid var(--colorBrandPrimary);
   font-weight: 500;
   background-color: var(--colorwhite);
+  transition-duration: 0.3s;
+
+}
+
+.hover-link:hover, .hover-link:focus, .hover-link:active {
+  background-color: var(--color-hover-links);
+  transform: scale(1.2);
+ 
+
 }
 
 .secondary-button {
@@ -66,11 +75,7 @@ p {
   background-color: var(--colorBrandPrimaryDark);
 }
 
-/* .hover-link:hover {
-        background-color: var(--color-hover-links);
-        transform: scale(1.2);
-      
-    } */
+
 
 a {
   text-decoration: none;
