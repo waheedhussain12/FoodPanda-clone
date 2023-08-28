@@ -225,3 +225,10 @@ border: 1px solid gray;
   
  
 }
+
+
+/* food prepare section or sec section */
+.foodPrepare-section{
+  height: 100vh;
+  background-color: aquamarine;
+}
