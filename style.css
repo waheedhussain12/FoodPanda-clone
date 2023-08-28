@@ -90,11 +90,11 @@ li {
   
 }
 li{
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
   
 }
 .btn-hero-section{
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
 }
 .btn-hero-section:hover{
   /* background-color: var(--color-hover-links); */
