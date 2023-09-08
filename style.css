@@ -97,7 +97,9 @@ li{
 .btn-hero-section{
   transition: 0.1s ease-in;
 }
-.btn-hero-section:hover{
+
+
+.btn-hero-section :hover{
   /* background-color: var(--color-hover-links); */
   transform: scale(1.1);
   border-radius: 8px;
@@ -300,9 +302,49 @@ border: 1px solid gray;
   font-weight: 400;
 }
 
+.cards-btn{
+  padding: 3em;
+ margin-top: 2em;
+
+}
+
+.card-img{
+  padding: 1em;
+  background-image: url(./imgs/Islamabad.jpg);
+  width: 21vw;
+  height: 253px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  
+ 
+}
+
+.card-img{
+  transition: 0.1s ease-out;
+}
+.card-img:hover{
+    /* background-color: var(--color-hover-links); */
+    transform: scale(1.1);
+    border-radius: 13px;
+  }
 
 
 
+
+.btn-city{
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+  background-color: #fff;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 400;
+  width: 120px;
+  height: 46px;
+  border-radius: 13px;
+}
 
 .spacer{
   height: 100vh;
