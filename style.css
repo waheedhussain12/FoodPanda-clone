@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
 }
 
 :root {
@@ -39,7 +39,7 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   color: var(--secondary-text-color);
-  line-height: 1.8rem;
+  /* line-height: 1.8rem; */
 }
 
 
@@ -262,17 +262,33 @@ border: 1px solid gray;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: #fff;
   border-radius: 15px;
-  height:65vh;
+  height:60vh;
   width: 45%;
   position: absolute;
-  top: 20em;
+  top: 15em;
   left: 3em;
+  padding: 1.5em;
+ 
+}
+.prepare-food-card h2{
+ /* padding-block: 1em; */
+  font-size: 1.5rem;
+  font-weight: 500;
+ 
+}
+.prepare-food-card p{
+  margin-top: 1.5em;
+  /* padding-block: 1em; */
+  font-size: 1rem;
 }
 
 
-
-
-
+.prepare-btn-section{
+  margin-top: 1.5em;
+  width: 120px;
+  text-align: center;
+  height: 50px;
+}
 
 
 
