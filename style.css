@@ -82,6 +82,7 @@ a {
   /* text-align: center; */
   display: flex;
   align-items: center;
+  justify-content: center;
  
 }
 li {
@@ -284,9 +285,9 @@ border: 1px solid gray;
 
 
 .prepare-btn-section{
+  background-color: #da2571;
   margin-top: 1.5em;
-  width: 120px;
-  text-align: center;
+  width: 112px;
   height: 50px;
 }
 
