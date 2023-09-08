@@ -224,6 +224,7 @@ border: 1px solid gray;
   width: 800px;
   position: absolute;
   background-size: cover;
+  object-fit: cover;
   top: 2em;
  left:9em;
 
@@ -235,6 +236,53 @@ border: 1px solid gray;
 
 /* food prepare section or sec section */
 .foodPrepare-section{
+  background-color:white;
+}
+
+.prepare-food h1{
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 2.2em;
+}
+.prepare-home-img{
+  height: 70vh;
+  padding-top: 1.3em;
+  position: relative;
+}
+.prepare-home-img img{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+ 
+}
+
+.prepare-food-card{
+  /* background-color: #333333; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  border-radius: 15px;
+  height:65vh;
+  width: 45%;
+  position: absolute;
+  top: 20em;
+  left: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer{
   height: 100vh;
-  background-color: aquamarine;
+  width: 100%;
+    background-color: white;
 }
