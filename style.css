@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid gold; */
+  border: 1px solid gold;
 }
 
 :root {
@@ -300,21 +300,29 @@ border: 1px solid gray;
 .cities-heading h1{
   font-size: 2rem;
   font-weight: 400;
+ 
 }
 
 .cards-btn{
-  padding: 3em;
- margin-top: 2em;
-
+padding: 1.3em;
+margin-top: 3em;
 }
 
+ /* all cards  */
+ .all-cards-section{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+ 
 
+}
 
 .card-img{
   /* padding: 1em; */
   /* background-image: url(./imgs/Islamabad.jpg); */
-  width: 21vw;
-  height: 253px;
+  width: 17vw;
+  height: 235px;
   background-position: center;
   background-size: cover;
   /* border-radius: 20px; */
@@ -338,13 +346,7 @@ border-radius: 13px;
     border-radius: 13px;
   }
 
-  /* all cards  */
-  .all-cards-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-  }
+ 
 
 .btn-city{
   position: absolute;
