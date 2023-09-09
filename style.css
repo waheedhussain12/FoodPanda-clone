@@ -338,7 +338,12 @@ border-radius: 13px;
     border-radius: 13px;
   }
 
-  
+  /* all cards  */
+  .all-cards-section{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
 
 .btn-city{
   position: absolute;
