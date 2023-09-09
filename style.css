@@ -308,6 +308,8 @@ border: 1px solid gray;
 
 }
 
+
+
 .card-img{
   /* padding: 1em; */
   /* background-image: url(./imgs/Islamabad.jpg); */
@@ -335,13 +337,8 @@ border-radius: 13px;
     transform: scale(1.2);
     border-radius: 13px;
   }
+
   
-  .card-img:nth-child(2) {
-   background-image: url(./imgs/Islamabad.jpg);
-   background-size: cover;
-  }
-
-
 
 .btn-city{
   position: absolute;
