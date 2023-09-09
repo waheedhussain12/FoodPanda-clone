@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
 }
 
 :root {
@@ -309,24 +309,30 @@ border: 1px solid gray;
 }
 
 .card-img{
-  padding: 1em;
-  background-image: url(./imgs/Islamabad.jpg);
+  /* padding: 1em; */
+  /* background-image: url(./imgs/Islamabad.jpg); */
   width: 21vw;
   height: 253px;
   background-position: center;
   background-size: cover;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  /* border-radius: 13px; */
   position: relative;
   
- 
 }
 
-.card-img{
-  transition: 0.1s ease-out;
+.card-img img{
+  height: 100%;
+  width: 100%;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+border-radius: 13px;
 }
-.card-img:hover{
+
+
+.card-img img:hover{
     /* background-color: var(--color-hover-links); */
-    transform: scale(1.1);
+    transform: scale(1.2);
     border-radius: 13px;
   }
 
