@@ -341,8 +341,9 @@ border-radius: 13px;
   /* all cards  */
   .all-cards-section{
     display: flex;
-    overflow: hidden;
     flex-wrap: wrap;
+    justify-content: center;
+   
   }
 
 .btn-city{
